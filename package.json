@@ -1,7 +1,10 @@
 {
   "name": "back",
   "version": "1.0.0",
-  "description": "",
+  "engines":{
+    "node":"10.x"
+  },
+  "description": "A great app",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
