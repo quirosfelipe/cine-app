@@ -10,7 +10,8 @@ const POSTER_SIZE = "w500";
 const SEARCH_BASE_URL = `${API_URL}search/movie?api_key=${API_KEY}&query=`;
 const POPULAR_BASE_URL = `${API_URL}movie/popular?api_key=${API_KEY}`;
 
-const BASE_URL = "http://localhost:8000/api";
+// const BASE_URL = "http://localhost:8000/api";
+const BASE_URL = "https://cine--app/api";
 
 export {
   SEARCH_BASE_URL,
