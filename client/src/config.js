@@ -1,7 +1,7 @@
 const API_URL = "https://api.themoviedb.org/3/";
 // const API_KEY2 = "844dba0bfd8f3a4f3799f6130ef9e335";
 const API_KEY = "121faa95467770d73bd452962979b83e";
-const IMAGE_BASE_URL = "http://image.tmdb.org/t/p/";
+const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/";
 // Sizes: w300, w780, w1280, original
 const BACKDROP_SIZE = "w1280";
 // w92, w154, w185, w342, w500, w780, original.
