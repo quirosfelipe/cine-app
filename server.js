@@ -44,9 +44,10 @@ if (
 }
 
 //cors
-if (process.env.NODE_ENV === "development") {
+if (process.env.NODE_ENV === "production") {
+  https: app.use(cors({ origin: "https://cine--app.herokuapp.com" }));
+} else {
   https: app.use(cors({ origin: `${process.env.CLIENT_URL}` }));
-  //https: app.use(cors({ origin: "https://cine--app.herokuapp.com" })); *
 }
 
 // routes middleware

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledMovieThumb = styled.div`
   img {
@@ -15,7 +15,7 @@ export const StyledMovieThumb = styled.div`
 
     /* @media screen and (max-width: 1024px) {
       height: 300px;
-    }
+    }*/
 
     @media screen and (max-width: 768px) {
       height: 350px;
@@ -27,9 +27,8 @@ export const StyledMovieThumb = styled.div`
 
     @media screen and (max-width: 375px) {
       max-height: 450px;
-    } */
-
-    .clickable {
+    }
+    */ .clickable {
       cursor: pointer;
     }
   }

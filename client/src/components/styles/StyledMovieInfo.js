@@ -9,13 +9,13 @@ export const StyledMovieInfo = styled.div`
   background-size: cover !important;
   background-position: center !important;
   width: 100%;
-  padding: 27px 20px;
+  padding: 34px 20px;
   box-sizing: border-box;
   animation: animateMovieinfo 1s;
 
   .movieinfo-content {
     max-width: 1280px;
-    min-height: 465px;
+    min-height: 450px;
     margin: 0 auto;
     background: rgb(0, 0, 0, 0.4);
     border-radius: 20px;

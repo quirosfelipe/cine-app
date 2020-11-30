@@ -7,7 +7,7 @@ export const StyledLikeDislike = styled.div`
 
   .likes,
   .dislikes {
-    margin: 2.5em 0 0 60px;
+    margin: 2.5em -30px 0 70px;
     width: 5em;
 
     p {
@@ -30,7 +30,7 @@ export const StyledLikeDislike = styled.div`
 
   .like-btn:hover,
   .dislike-btn:hover {
-    color: rgb(91, 37, 91);
+    color: #f3417a;
   }
 
   h3 {
@@ -44,6 +44,12 @@ export const StyledLikeDislike = styled.div`
     height: auto;
     margin-top: 90px;
     margin-left: -280px;
+
+    .likes,
+    .dislikes {
+      margin: 2.5em 19px 0 45px;
+      width: 5em;
+    }
   }
 
   @keyframes animateMovieinfos {

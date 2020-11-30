@@ -11,7 +11,7 @@ export const getMovieLikes = async (movieName) => {
       },
       body: JSON.stringify(movieName),
     });
-    console.log("this is the response--->", response);
+    // console.log("this is the response--->", response);
     return response.json();
   } catch (err) {
     return console.log(err);
