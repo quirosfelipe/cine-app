@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledMovieThumb = styled.div`
   img {
     width: 100%;
-    height: auto;
+    height: 100%;
     /* max-height: 350px; */
     transition: all 0.3s;
     object-fit: cover;
