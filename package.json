@@ -2,7 +2,7 @@
   "name": "back",
   "version": "1.0.0",
   "engines":{
-    "node":"10.x"
+    "node":"10.x" 
   },
   "description": "A great app",
   "main": "index.js",
