@@ -14,8 +14,6 @@ const likeRoutes = require("./routes/like");
 const app = express();
 
 //middlewares
-// app.use(express.json());
-// app.use(express.urlencoded());
 app.use(morgan("dev"));
 app.use(bodyParser.json());
 app.use(cookieParser());
@@ -46,9 +44,9 @@ if (
 }
 
 //cors
-if (process.env.NODE_ENV === "production") {
-  https: app.use(cors({ origin: "https://cine--app.herokuapp.com" }));
-  // https: app.use(cors({ origin: `${process.env.CLIENT_URL}` }));
+if (process.env.NODE_ENV === "development") {
+  https: app.use(cors({ origin: `${process.env.CLIENT_URL}` }));
+  //https: app.use(cors({ origin: "https://cine--app.herokuapp.com" })); *
 }
 
 // routes middleware
