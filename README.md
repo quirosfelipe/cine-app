@@ -1,14 +1,15 @@
 # Cine-app
-Search for any movie title. Give it a thumbs up or down!...forever
+Search for any movie title. Give it as many thumbs up or thumbs down you want...Your vote counts forever!
 
-*This small app is designed to fullfill the application requirements for the Software Engineering Apprenticeship Program at Tandem.*
 > Visit the live site [here.](https://cine--app.herokuapp.com/)
 
 # Key Features
 
-- Users can view 1 out of 10 random questions at a time with their corresponding 4 multiple choice answers.
-- Users shouldn't see repetitive questions in a round.
-- Users can select only 1 answer out of the 4 possible answers per question.
+- Users can preview titles of the most recent US top movies in the landing page.
+- Users can search for any movie title and click it to see more information.
+- Users can give as many thumbs up or thumbs down they want to any movie. The vote count will remain forever!
+- Users will find the following information in the movie detail page: 
+[]one
 - Users can see the correct answer revealed after submitting the answer.
 - Users should see a background color change depending on if the answer was right or wrong.
 - Users can see the score they received at the end of the round.
