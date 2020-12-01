@@ -6,10 +6,10 @@ Search for any movie title. Give it as many thumbs up or thumbs down you want...
 
 ## Key Features
 
-- Users can preview titles of the most recent US top movies in the landing page.
+- Users can preview titles of the most recent US top movies on the landing page.
 - Users can search for any movie title and click it to see more information.
 - Users can give as many thumbs up or thumbs down they want to any movie. The vote count will remain forever!
-- Users will find the following information in the movie detail page: 
+- Users will find the following information on the movie detail page: 
 	 - [ ] Title
 	 - [ ]  Description (Plot)
 	 - [ ] IMBd rating
