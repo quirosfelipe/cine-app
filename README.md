@@ -36,7 +36,8 @@ Search for any movie title. Give it as many thumbs up or thumbs down you want...
 ## Search for a movie title 
 
 
-> Find the most recent US top movies on the landing page and use the search bar to look up any specific title.
+> Find the most recent US top movies on the landing page and 
+> use the search bar to look up any specific title.
 
 [![splash.png](https://i.postimg.cc/SsCCBTf7/splash.png)](https://postimg.cc/jwqDNh9L)
 
