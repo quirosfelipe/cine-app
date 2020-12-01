@@ -19,9 +19,7 @@ Search for any movie title. Give it as many thumbs up or thumbs down you want...
 	 - [ ] Running time (if  data exists)
 	 - [ ] Budget (if  data exists)
 	 - [ ] Revenue (if  data exists)
-- Users can see the correct answer revealed after submitting the answer.
-- Users should see a background color change depending on if the answer was right or wrong.
-- Users can see the score they received at the end of the round.
+
 
 ## Technologies Used
 - MERN ( MongoDB, Express.js, React.js, Node.js)
