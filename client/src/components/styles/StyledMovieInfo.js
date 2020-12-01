@@ -8,10 +8,10 @@ export const StyledMovieInfo = styled.div`
       : "#000"};
   background-size: cover !important;
   background-position: center !important;
-  width: 100%;
+  width: auto;
   padding: 34px 20px;
   box-sizing: border-box;
-  animation: animateMovieinfo 1s;
+  animation: animateMovieinfo 2s;
 
   .movieinfo-content {
     max-width: 1280px;
@@ -32,6 +32,8 @@ export const StyledMovieInfo = styled.div`
   }
 
   .movieinfo-text {
+
+    width:auto;
     font-family: Arial, Helvetica, sans-serif;
     padding: 40px;
     color: #fff;
@@ -62,9 +64,22 @@ export const StyledMovieInfo = styled.div`
 
   .rating-director {
     display: flex;
-    justify-content: flex-start;
+    align-items:start;
+    
   }
+  .r {
+      @media screen and (max-width: 768px) {
+        
+    width:20px;
+    margin-right:30px;
 
+    }
+      h3 {
+      font-size: 16px;
+      line-height: 1;
+      margin-top: 25px;
+    }
+  }
   .score {
     display: flex;
     align-items: center;
@@ -75,20 +90,29 @@ export const StyledMovieInfo = styled.div`
     color: #000;
     font-weight: 800;
     border-radius: 25px;
-    margin: 0px 0 0 0;
+    margin: 0 0 0 6px;
+    
+  }
+  .year {
+    margin: 29px 0 0 0;
   }
 
-  .director {
-    margin: 0 0 0 40px;
+  .director, .release-year {
+    margin: 0 0 0 60px;
 
     p {
       margin: 25px 0 0 0;
+    }
+      @media screen and (max-width: 768px) {
+  margin-top:20px;
+   margin: 20px 0 0 25px;
     }
   }
 
   @media screen and (max-width: 768px) {
     min-height: 600px;
     height: auto;
+    }
   }
 
   @keyframes animateMovieinfo {

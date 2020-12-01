@@ -24,8 +24,8 @@ const MovieInfo = ({ movie }) => (
         <p>{movie.overview}</p>
 
         <div className="rating-director">
-          <div>
-            <h3>IMDB RATING</h3>
+          <div className="r">
+            <h3>IMDb RATING</h3>
             <div className="score">{movie.vote_average}</div>
           </div>
           <div className="director">
@@ -33,6 +33,10 @@ const MovieInfo = ({ movie }) => (
             {movie.directors.map((e) => (
               <p key={e.credit_id}>{e.name}</p>
             ))}
+          </div>
+          <div className="release-year">
+            <h3>YEAR</h3>
+            <div className="year">{movie.release_date.substring(0, 4)}</div>
           </div>
           <LikeDislike movieName={movie.title} />
         </div>
