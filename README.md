@@ -24,6 +24,6 @@ Search for any movie title. Give it a thumbs up or down!...forever
 - External API (The Movie DB)
 
 ## Search for a movie title 
-# See the top movies in the landing page and use the search bar to look up for any specific title.
+See the top movies in the landing page and use the search bar to look up for any specific title.
 [![splash.png](https://i.postimg.cc/SsCCBTf7/splash.png)](https://postimg.cc/jwqDNh9L)
 [![movie.png](https://i.postimg.cc/XYgXY5zw/movie.png)](https://postimg.cc/0zb9tzxQ)
