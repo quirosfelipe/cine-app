@@ -9,7 +9,7 @@ Search for any movie title. Give it as many thumbs up or thumbs down you want...
 - Users can search for any movie title and click it to see more information.
 - Users can give as many thumbs up or thumbs down they want to any movie. The vote count will remain forever!
 - Users will find the following information in the movie detail page: 
-[]one
+-- one
 - Users can see the correct answer revealed after submitting the answer.
 - Users should see a background color change depending on if the answer was right or wrong.
 - Users can see the score they received at the end of the round.
